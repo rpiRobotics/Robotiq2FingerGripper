@@ -1,0 +1,9 @@
+service edu.rpi.gripper
+
+option version 0.8
+
+object gripcon
+    function void setPosition(uint8 position, uint8 speed, uint8 force)
+    function uint8 getPosition()
+    function double getCurrent()
+end object
